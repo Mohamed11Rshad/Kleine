@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">KleineYt</string>
+    <string name="rightAddress">The Right Address\nFor Shopping\nAnyday</string>
+    <string name="quality">it is now very easy to reach the\nbest quality among the\nproducts on the internet!</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_password_description">"We will send you the password reset link to your email "</string>
+    <string name="cancel">Cancel</string>
+    <string name="send">Send</string>
+
+</resources>

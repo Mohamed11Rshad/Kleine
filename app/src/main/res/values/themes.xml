@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.KleineYt" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="android:statusBarColor">#00F5F8FA</item>
+
+    </style>
+
+    <style name="Theme.KleineYt" parent="Base.Theme.KleineYt" />
+</resources>

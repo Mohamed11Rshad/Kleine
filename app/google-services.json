@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "380091648323",
+    "project_id": "kleineyt-12ad9",
+    "storage_bucket": "kleineyt-12ad9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380091648323:android:12e32660c5745107a7c7f6",
+        "android_client_info": {
+          "package_name": "com.example.kleineyt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380091648323-767emg9c6jgdv45m53b32dpra2t0q8vp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9ZDFwtQHj0s66YxDhUHOeEQ8lxq8jkIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380091648323-767emg9c6jgdv45m53b32dpra2t0q8vp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
