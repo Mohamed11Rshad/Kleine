@@ -1,23 +1,51 @@
-# kleine
-kleine app targets people who are looking to buy high quality furniture products for their house e.g : cupboards, chairs. And it targets merchants that sell furniture products to enable them to spread their markets and put their products online so everyone can check them out and order them.
+# Kleine - Online Furniture Marketplace
 
-# preview
-![Untitled-1](https://github.com/Mohamed11Rshad/Data/blob/main/kleine/1.png)
-![Untitled-1](https://github.com/Mohamed11Rshad/Data/blob/main/kleine/2.png)
+Kleine is an online platform that connects furniture buyers with high-quality furniture products and empowers furniture merchants to expand their market presence.
 
+## Screenshots
 
-# Libraries and technologies used
-- Navigation component : one activity contains multiple fragments instead of creating multiple activites.
-- Firebase Auth : Manging Accounts/ Loging in and Registrations.
-- Firebase Firestore : Database for the system.
-- Firebase Storage : To store proucts images and user profile pictures.
-- MVVM & LiveData : Saperate logic code from views and save the state in case the screen configuration changes.
-- Coroutines : do some code in the background.
-- view binding : instead of inflating views manually view binding will take care of that.
-- Glide : Catch images and load them in imageView.
-- Dagger Hilt : for dependency injection
-- Pagination: Implementing pagination for smooth loading of more articles.
+![Home Screen](https://github.com/Mohamed11Rshad/Data/blob/main/kleine/1.png)
+![Product Details](https://github.com/Mohamed11Rshad/Data/blob/main/kleine/2.png)
 
+## Libraries and Technologies Used
 
-# Progress
-I am adding new features whenever its approporiate, Currently i'm working on the Admin console app to be able to publish new products, manipulate them and review statistics of sales.
+- **Navigation Component**: The Navigation Component simplifies navigation and UI management by allowing the app to have a single activity with multiple fragments. This architecture enhances code organization and user experience.
+
+- **Firebase Auth**: Firebase Auth provides secure user authentication and registration, ensuring that user data is protected.
+
+- **Firebase Firestore**: Firestore is used as the real-time database for storing product data. It enables seamless data synchronization across devices and supports real-time updates.
+
+- **Firebase Storage**: Firebase Storage is used to store product images and user profile pictures. It offers reliable and scalable cloud storage for multimedia assets.
+
+- **MVVM & LiveData**: MVVM architecture, coupled with LiveData, separates business logic from UI components and ensures that data is observed and updated consistently across the app.
+
+- **Coroutines**: Coroutines facilitate asynchronous programming, enabling tasks to be executed in the background without blocking the main thread, leading to a more responsive user interface.
+
+- **View Binding**: View Binding simplifies the process of referencing UI elements, reducing the risk of runtime errors and improving code readability.
+
+- **Glide**: Glide is utilized for image loading and caching. It optimizes image loading, reducing load times and enhancing the overall user experience.
+
+- **Dagger Hilt**: Dagger Hilt provides dependency injection, making it easier to manage dependencies and create modular, maintainable code.
+
+- **Pagination**: Pagination is implemented to ensure a smooth user experience when loading additional product listings, enhancing app performance and usability.
+
+## Project Progress
+
+Kleine is an ongoing project, and we're continually working to enhance the user experience. Currently, our focus is on developing an Admin Console app that will enable merchants to publish new products, manage listings, and review sales statistics.
+
+We believe that the careful selection of these tools and technologies has been pivotal in achieving the app's functionality and performance goals.
+
+We welcome contributions from the community and encourage you to get involved in shaping the future of Kleine.
+
+## Getting Started
+
+To get started with Kleine, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Set up Firebase for authentication, Firestore, and Storage, and update the configuration files accordingly.
+3. Build and run the app on your development environment.
+
+## Demo Video
+
+https://github.com/Mohamed11Rshad/Kleine/assets/126785911/b03f5cf6-e883-4d4c-82b2-1b3c2ee7bfb2
+
