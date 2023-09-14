@@ -15,6 +15,7 @@ kleine app targets people who are looking to buy high quality furniture products
 - Coroutines : do some code in the background.
 - view binding : instead of inflating views manually view binding will take care of that.
 - Glide : Catch images and load them in imageView.
+- Dagger Hilt : for dependency injection
 
 # Progress
 I am adding new features whenever its approporiate, Currently i'm working on the Admin console app to be able to publish new products, manipulate them and review statistics of sales.
