@@ -33,7 +33,7 @@ class ProfileFragment : Fragment(){
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentProfileBinding.inflate(layoutInflater,container,false)
         return binding.root
     }
@@ -47,6 +47,21 @@ class ProfileFragment : Fragment(){
 
         binding.linearAllOrders.setOnClickListener {
             findNavController().navigate(R.id.action_profileFragment_to_ordersFragment)
+        }
+
+        // passing boolean variable by bundle to All orders fragment
+        // to determine either you are here to say order details or track it
+
+        binding.linearTrackOrder.setOnClickListener {
+
+            // using bundle to put variable value and then pass it via navController
+            val bundle = Bundle().apply {
+                putBoolean("showDetails", false)
+            }
+            findNavController().navigate(
+                R.id.action_profileFragment_to_ordersFragment,
+                bundle
+            )
         }
 
         binding.linearBilling.setOnClickListener {
