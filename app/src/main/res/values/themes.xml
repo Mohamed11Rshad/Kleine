@@ -6,6 +6,9 @@
 
         <item name="android:statusBarColor">#00F5F8FA</item>
 
+        // to show status bar content on light mode
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
     </style>
 
     <style name="Theme.KleineYt" parent="Base.Theme.KleineYt" />
